@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#40E0D0</color>
+    <color name="colorPrimaryDark">#5BC2E7</color>
+    <color name="colorAccent">#00A6D6</color>
+
+    <color name="colorRed">#FF0000</color>
+
+    <!-- progressbar 배경색 -->
+    <color name="light_gray1">#8E9EAB</color>
+    <color name="light_gray2">#EEF2F3</color>
+
+    <!-- main progressbar 진행 상황표시 색 -->
+    <color name="p1_color1">#A5FECB</color>
+    <color name="p1_color2">#20BDFF</color>
+    <color name="p1_color3">#5433FF</color>
+
+
+    <!-- menu progressbar 진행 상황표시 색 -->
+    <color name="p2_color1">#FAFFD1</color>
+    <color name="p2_color2">#A1FFCE</color>
+
+    <!-- 리스트 아이템 날짜, 카테고리 텍스트 색 -->
+    <color name="text_date">#8E9EAB</color>
+    <color name="text_category">#2C3E50</color>
+
+</resources>

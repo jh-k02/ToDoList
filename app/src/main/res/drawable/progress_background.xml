@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- progressbar 스타일 설정 -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="8dp" />
+
+            <gradient
+                    android:startColor="@color/light_gray1"
+                    android:endColor="@color/light_gray2"
+            />
+        </shape>
+    </item>
+
+    <!-- progressbar 배경색 설정-->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="8dp" />
+
+                <!-- progressbar 진행 상황 그라데이션 설정 -->
+                <gradient
+                        android:startColor="@color/p1_color1"
+                        android:centerColor="@color/p1_color2"
+                        android:endColor="@color/p1_color3"
+                />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

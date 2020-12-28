@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MenuActivity">
+
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+        <TextView
+                android:id="@+id/menu_name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:text="오늘 할 일"
+                android:gravity="left"/>
+        <TextView
+                android:id="@+id/Day"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="left"/>
+        <TextView
+                android:id="@+id/list_num"
+                android:layout_width="0dp"
+                android:layout_height="0dp"/>
+
+        <TextView
+                android:id="@+id/date_flag"
+                android:layout_width="0dp"
+                android:layout_height="0dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="70dp"
+            android:paddingBottom="30dp">
+        <ProgressBar
+                android:id="@+id/menu_progressBar"
+                android:layout_height="match_parent"
+                android:layout_width="250dp"
+                android:max="100"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progress2_background" />
+        <TextView
+                android:id="@+id/menu_percent"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="right"
+                android:text="0"/>
+        <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="% 완료"/>
+    </LinearLayout>
+
+    <include layout="@layout/content_menu"/>
+
+
+</android.support.design.widget.CoordinatorLayout>
